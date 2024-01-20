@@ -1,0 +1,109 @@
+* {
+    margin: 5px;
+    padding: 1px;
+}
+
+nav {
+    background-color: #8200ff;
+    border-radius: 20px;
+    color: rgb(0 253 197);
+    display: flex;
+    padding: 6px;
+    /* width: 100%; */
+    border-width: 10px;
+    border-style: solid;
+    border-color: pink;
+    
+}
+
+li {
+    list-style: none;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+li:hover {
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+
+.set3 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border-radius: 50%;
+    color: red;
+    /* display: flex; */
+    /* font-display:fixed; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: double;
+    text-transform: capitalize;
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover{
+    background-color: gray;
+    text-transform:capitalize ;
+    color: blue;
+}
+
+.nav1 {
+    background-color: black;
+    border: 12px solid white;
+    padding: 0px;
+    height: 126px;
+    border-radius: 0px;
+    color: white;
+}
+
+.amazon1 {
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+
+.amazon1:hover {
+    background-color: none !important;
+    text-transform: none;
+    text-decoration: none;
+}
+
+#ama {
+    height: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+#ama1 {
+    height: 48px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 2px;
+    padding: 10px;
+}
+
+#ama1:hover {
+    cursor: pointer;
+    background-color: rgb(255, 47, 0);
+}
+
+body {
+    background-color: rgb(44, 6, 110);
+    color: white;
+}
